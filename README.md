@@ -31,15 +31,15 @@ Designed in KiCad
 
 **Schematic:**
 
-<img src="assets/schematic.png" alt="Schematic" width="800"/>
+<img src="Images/MacroPAD PCB Schemetic.png" alt="Schematic" width="800"/>
 
-**PCB Front:**
+**PCB :**
 
-<img src="assets/pcb_front.png" alt="PCB Front" width="800"/>
+<img src="Images/MacroPAD PCB Front.png" alt="PCB Front" width="800"/>
 
-**PCB Back:**
+**PCB 3D view**
 
-<img src="assets/pcb_back.png" alt="PCB Back" width="800"/>
+<img src="Images/PCB 3D.png" alt="PCB 3D" width="800"/>
 
 ### Case
 
@@ -47,19 +47,19 @@ Designed in Fusion 360 (This was my first time on CAD)
 
 **Case Assembly:**
 
-<img src="assets/case_assembly.png" alt="Case Assembly" width="800"/>
+<img src="Images/Assembly.png" alt="Case Assembly" width="800"/>
 
 **Case Top:**
 
-<img src="assets/case_top.png" alt="Case Top" width="800"/>
+<img src="Images/Top case.png" alt="Case Top" width="800"/>
 
 **Case Bottom:**
 
-<img src="assets/case_bottom.png" alt="Case Bottom" width="800"/>
+<img src="Images/MacroPAD Bottom case.png" alt="Case Bottom" width="800"/>
 
 ### Final Build
 
-<img src="assets/final_build.png" alt="Final Build" width="800"/>
+<img src="Images/MacroPAD.png" alt="Final Build" width="800"/>
 
 ## Credits
 
