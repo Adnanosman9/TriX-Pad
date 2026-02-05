@@ -82,10 +82,5 @@ This project uses:
 - [KMK Firmware](https://github.com/KMKfw/kmk_firmware) for keyboard functionality
 - [Hack Club Blueprint](https://blueprint.hackclub.com/) as guide and inspiration
 
-## License
-
-MIT
-
----
 
 > GitHub [@Adnanosman](https://github.com/Adnanosman9)
