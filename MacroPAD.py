@@ -25,4 +25,9 @@ pad.keymap = [
 ]
 
 if __name__ == '__main__':
+
     pad.go()
+
+
+
+# It's Pre-assembly code mapped to KiCad Schematic
