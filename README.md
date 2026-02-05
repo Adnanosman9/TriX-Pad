@@ -61,6 +61,19 @@ Designed in Fusion 360 (This was my first time on CAD)
 
 <img src="Images/MacroPAD.png" alt="Final Build" width="800"/>
 
+## Bill of Materials
+
+| Component | Item | Qty | Link |
+|-----------|------|-----|------|
+| Controller | Seeed Studio XIAO RP2040 | 1 | [🛒](https://keebd.com/products/xiao-rp2040-controller) |
+| Switches | MX-Style - Cherry | 9 | [🛒](https://www.aliexpress.com/item/1005008656717678.html) |
+| Display | 0.96" SSD1306 OLED | 1 | [🛒](https://www.aliexpress.com/item/1005008754404998.html) |
+| Diodes | 1N4148 | 9 | [🛒](https://store.roboticsbd.com/components/1355-1n4148-diode-robotics-bangladesh.html) |
+| Keycaps | Blank DSA Keycaps | 9 | [🛒](https://keebd.com/products/ldsa-low-profile-blank-keycaps) |
+| PCB | Custom PCB | 1 | [🛒](https://www.nextpcb.com/?code=BanglaGECS) |
+
+*For full URLs and details, see [BOM.csv](BOM.csv)*
+
 ## Credits
 
 This project uses:
