@@ -72,7 +72,7 @@ Designed in Fusion 360 (This was my first time on CAD)
 | Keycaps | Blank DSA Keycaps | 9 | [🛒](https://keebd.com/products/ldsa-low-profile-blank-keycaps) |
 | PCB | Custom PCB | 1 | [🛒](https://www.nextpcb.com/?code=BanglaGECS) |
 
-*For full URLs and details, see [BOM.csv](BOM.csv)*
+* Full URLs and details are here [BOM.csv](BOM.csv)*
 
 ## Credits
 
