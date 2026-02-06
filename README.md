@@ -35,7 +35,7 @@ Designed in KiCad
 
 **PCB :**
 
-<img src="Images/MacroPAD PCB Front.png" alt="PCB Front" width="800"/>
+<img src="Images/Macropad pcb front.png" alt="PCB Front" width="800"/>
 
 **PCB 3D view**
 
@@ -45,9 +45,6 @@ Designed in KiCad
 
 Designed in Fusion 360 (This was my first time on CAD)
 
-**Case Assembly:**
-
-<img src="Images/Assembly.png" alt="Case Assembly" width="800"/>
 
 **Case Top:**
 
@@ -55,11 +52,11 @@ Designed in Fusion 360 (This was my first time on CAD)
 
 **Case Bottom:**
 
-<img src="Images/MacroPAD Bottom case.png" alt="Case Bottom" width="800"/>
+<img src="Images/Bottom case.png" alt="Case Bottom" width="800"/>
 
 ### Final Build
 
-<img src="Images/MacroPAD.png" alt="Final Build" width="800"/>
+<img src="Images/Macropad.png" alt="Final Build" width="800"/>
 
 ## Bill of Materials
 
@@ -67,7 +64,7 @@ Designed in Fusion 360 (This was my first time on CAD)
 |-----------|------|-----|------|
 | Controller | Seeed Studio XIAO RP2040 | 1 | [shop](https://www.aliexpress.com/item/1005003901735765.html?spm=a2g0o.productlist.main.7.476e353djlSDuL&algo_pvid=dbcfa9cd-6189-4b1b-ac88-34a1d319951b&algo_exp_id=dbcfa9cd-6189-4b1b-ac88-34a1d319951b-6&pdp_ext_f=%7B%22order%22%3A%2210%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BDT%211235.41%21791.05%21%21%2110.12%216.48%21%402102f0c917702803339762337e94ef%2112000027424449312%21sea%21BD%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A72dc75d0%3Bm03_new_user%3A-29895&curPageLogUid=IyM167uC5ZPL&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005003901735765%7C_p_origin_prod%3A) |
 | Switches | MX-Style - Cherry | 9 | [shop](https://www.aliexpress.com/item/1005008656717678.html) |
-| Display | 0.96" SSD1306 OLED | 1 | [shop](https://www.aliexpress.com/item/1005008754404998.html) |
+| Display | 0.91" SSD1306 OLED | 1 | [shop](https://www.aliexpress.com/item/1005009334190029.html?spm=a2g0o.productlist.main.8.2bfd287aqLPk3w&aem_p4p_detail=202602061211491270345982101230000339365&algo_pvid=a7954837-74e4-4740-985d-f0c909bd6ca4&algo_exp_id=a7954837-74e4-4740-985d-f0c909bd6ca4-7&pdp_ext_f=%7B%22order%22%3A%22149%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BDT%211327.98%211252.68%21%21%2174.95%2170.70%21%40210156fc17704087089545662e990b%2112000048787454564%21sea%21BD%216462599671%21ABX%211%210%21n_tag%3A-29910%3Bd%3A72dc75d0%3Bm03_new_user%3A-29895&curPageLogUid=FVxMMdBZr2ks&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009334190029%7C_p_origin_prod%3A&search_p4p_id=202602061211491270345982101230000339365_2) |
 | Diodes | 1N4148 | 9 | [shop](https://store.roboticsbd.com/components/1355-1n4148-diode-robotics-bangladesh.html) |
 | Keycaps | Blank DSA Keycaps(Black) | 9 | [shop](https://www.aliexpress.com/item/1005006114411137.html?spm=a2g0o.productlist.main.12.7d32mlommlomdd&algo_pvid=3c273ca4-5055-4746-8f86-ce160f57a176&algo_exp_id=3c273ca4-5055-4746-8f86-ce160f57a176-11&pdp_ext_f=%7B%22order%22%3A%22398%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BDT%21922.01%21677.86%21%21%2152.16%2138.35%21%402102f22c17702802712277164e2399%2112000035814143793%21sea%21BD%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A72dc75d0%3Bm03_new_user%3A-29895%3BpisId%3A5000000197858384&curPageLogUid=FdgYhFJXMlbC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006114411137%7C_p_origin_prod%3A) |
 
