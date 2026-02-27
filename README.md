@@ -1,83 +1,84 @@
 <h1 align="center">
-  Adnan's 3x3 Macro-Pad
-  <br>
+  Adnan's 3x3 Macro-Pad ⌨️
 </h1>
 
 <h4 align="center">
-A custom mechanical macro-pad with OLED screen
+  A custom, open-source mechanical macro-pad featuring an OLED screen.
 </h4>
 
 <div align="center">
 
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
-![Fusion 360](https://img.shields.io/badge/Fusion%20360-FF6B00?style=for-the-badge&logo=autodesk&logoColor=white)
+  ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
+  ![Fusion 360](https://img.shields.io/badge/Fusion%20360-FF6B00?style=for-the-badge&logo=autodesk&logoColor=white)
+  ![CircuitPython](https://img.shields.io/badge/CircuitPython-8A2BE2?style=for-the-badge&logo=python&logoColor=white)
+  ![Open Source](https://img.shields.io/badge/Open_Source-Success?style=for-the-badge)
 
 </div>
 
-## Key Features
+<br>
 
-- **Seeed Studio XIAO RP2040** microcontroller
-- **KMK Firmware** - CircuitPython
-- **OLED Display** - SSD1306 (128×64)
-- **3×3 Key Matrix** with diode orientation
+## ✨ Key Features
 
-## Design
+* **Brain:** Powered by the compact and capable **Seeed Studio XIAO RP2040**.
+* **Firmware:** Runs on **KMK Firmware** (CircuitPython) for incredibly easy keymap customization without needing to recompile.
+* **Display:** Integrated **0.91" SSD1306 OLED (128×64)** for real-time layer feedback, stats, or custom graphics.
+* **Matrix:** A clean **3×3 Key Matrix** layout complete with diode orientation for robust anti-ghosting.
 
-Designed in KiCad and Fusion 360 for PCB and Case
+---
 
-### PCB
+## 🛠️ Hardware Design
 
-Designed in KiCad
+This project was built entirely from scratch, bridging custom PCB design with 3D modeling. 
 
-**Schematic:**
+### PCB (KiCad)
+The board was routed and designed in KiCad to keep the footprint as minimal as possible while accommodating the XIAO RP2040 and OLED screen.
 
-<img src="Images/MacroPAD PCB Schemetic.png" alt="Schematic" width="800"/>
+| Schematic | PCB Layout | 3D Render |
+| :---: | :---: | :---: |
+| <img src="Images/MacroPAD PCB Schemetic.png" alt="Schematic" width="250"/> | <img src="Images/Macropad pcb front.png" alt="PCB Front" width="250"/> | <img src="Images/PCB 3D.png" alt="PCB 3D" width="250"/> |
 
-**PCB :**
+### Case (Fusion 360)
+The enclosure was designed in Autodesk Fusion 360—marking my very first time diving into CAD! It features a sleek, two-part snap-fit/screw design to house the PCB and switches securely.
 
-<img src="Images/Macropad pcb front.png" alt="PCB Front" width="800"/>
+| Top Case | Bottom Case |
+| :---: | :---: |
+| <img src="Images/Top case.png" alt="Case Top" width="350"/> | <img src="Images/Bottom case.png" alt="Case Bottom" width="350"/> |
 
-**PCB 3D view**
+### 🚀 The Final Build
+<div align="center">
+  <img src="Images/Macropad.png" alt="Final Build" width="600"/>
+</div>
 
-<img src="Images/PCB 3D.png" alt="PCB 3D" width="800"/>
+---
 
-### Case
+## 📦 Bill of Materials (BOM)
 
-Designed in Fusion 360 (This was my first time on CAD)
+Everything you need to build this macro-pad yourself. *(For full details, see the [`BOM.csv`](BOM.csv) file).*
 
+| Component | Description / Item | Qty | Source |
+| :--- | :--- | :---: | :--- |
+| **Controller** | Seeed Studio XIAO RP2040 | 1 | [AliExpress](https://www.aliexpress.com/item/1005003901735765.html) |
+| **Switches** | MX-Style (Cherry) | 9 | [AliExpress](https://www.aliexpress.com/item/1005008656717678.html) |
+| **Display** | 0.91" SSD1306 OLED | 1 | [AliExpress](https://www.aliexpress.com/item/1005009334190029.html) |
+| **Diodes** | 1N4148 Through-Hole | 9 | [Robotics BD](https://store.roboticsbd.com/components/1355-1n4148-diode-robotics-bangladesh.html) |
+| **Keycaps** | Blank DSA Keycaps (Black) | 9 | [AliExpress](https://www.aliexpress.com/item/1005006114411137.html) |
 
-**Case Top:**
-
-<img src="Images/Top case.png" alt="Case Top" width="800"/>
-
-**Case Bottom:**
-
-<img src="Images/Bottom case.png" alt="Case Bottom" width="800"/>
-
-### Final Build
-
-<img src="Images/Macropad.png" alt="Final Build" width="800"/>
-
-## Bill of Materials
-
-| Component | Item | Qty | Link |
-|-----------|------|-----|------|
-| Controller | Seeed Studio XIAO RP2040 | 1 | [shop](https://www.aliexpress.com/item/1005003901735765.html?spm=a2g0o.productlist.main.7.476e353djlSDuL&algo_pvid=dbcfa9cd-6189-4b1b-ac88-34a1d319951b&algo_exp_id=dbcfa9cd-6189-4b1b-ac88-34a1d319951b-6&pdp_ext_f=%7B%22order%22%3A%2210%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BDT%211235.41%21791.05%21%21%2110.12%216.48%21%402102f0c917702803339762337e94ef%2112000027424449312%21sea%21BD%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A72dc75d0%3Bm03_new_user%3A-29895&curPageLogUid=IyM167uC5ZPL&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005003901735765%7C_p_origin_prod%3A) |
-| Switches | MX-Style - Cherry | 9 | [shop](https://www.aliexpress.com/item/1005008656717678.html) |
-| Display | 0.91" SSD1306 OLED | 1 | [shop](https://www.aliexpress.com/item/1005009334190029.html?spm=a2g0o.productlist.main.8.2bfd287aqLPk3w&aem_p4p_detail=202602061211491270345982101230000339365&algo_pvid=a7954837-74e4-4740-985d-f0c909bd6ca4&algo_exp_id=a7954837-74e4-4740-985d-f0c909bd6ca4-7&pdp_ext_f=%7B%22order%22%3A%22149%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BDT%211327.98%211252.68%21%21%2174.95%2170.70%21%40210156fc17704087089545662e990b%2112000048787454564%21sea%21BD%216462599671%21ABX%211%210%21n_tag%3A-29910%3Bd%3A72dc75d0%3Bm03_new_user%3A-29895&curPageLogUid=FVxMMdBZr2ks&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009334190029%7C_p_origin_prod%3A&search_p4p_id=202602061211491270345982101230000339365_2) |
-| Diodes | 1N4148 | 9 | [shop](https://store.roboticsbd.com/components/1355-1n4148-diode-robotics-bangladesh.html) |
-| Keycaps | Blank DSA Keycaps(Black) | 9 | [shop](https://www.aliexpress.com/item/1005006114411137.html?spm=a2g0o.productlist.main.12.7d32mlommlomdd&algo_pvid=3c273ca4-5055-4746-8f86-ce160f57a176&algo_exp_id=3c273ca4-5055-4746-8f86-ce160f57a176-11&pdp_ext_f=%7B%22order%22%3A%22398%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21BDT%21922.01%21677.86%21%21%2152.16%2138.35%21%402102f22c17702802712277164e2399%2112000035814143793%21sea%21BD%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A72dc75d0%3Bm03_new_user%3A-29895%3BpisId%3A5000000197858384&curPageLogUid=FdgYhFJXMlbC&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006114411137%7C_p_origin_prod%3A) |
-
-* Full URLs and details are here [BOM.csv](BOM.csv)*
-
-## Credits
-
-This project uses:
-
-- [KiCad](https://www.kicad.org/) for PCB design
-- [Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/) for case design
-- [KMK Firmware](https://github.com/KMKfw/kmk_firmware) for keyboard functionality
-- [Hack Club Blueprint](https://blueprint.hackclub.com/) as guide and inspiration
+---
 
 
-> GitHub [@Adnanosman](https://github.com/Adnanosman9)
+## 🙌 Credits & Acknowledgments
+
+This project wouldn't be possible without these incredible open-source tools and communities:
+
+* **[KiCad](https://www.kicad.org/)** for the phenomenal open-source PCB design suite.
+* **[Autodesk Fusion 360](https://www.autodesk.com/products/fusion-360/)** for the case design environment.
+* **[Hack Club Blueprint](https://blueprint.hackclub.com/)** for the guide and inspiration. 
+* Massive thanks to **Hack Club Bank** for the grant that funded the PCB and case manufacturing to bring this hardware to life!
+
+<br>
+
+<div align="center">
+  <img src="hackclub-approved.svg" alt="Approved by Hack Club" width="250"/>
+  <br><br>
+  <b>Designed by <a href="https://github.com/Adnanosman9">@Adnanosman</a></b>
+</div>
