@@ -1,5 +1,5 @@
 <h1 align="center">
-  Adnan's 3x3 Macro-Pad ⌨️
+  Adnan's 3x3 Macro-Pad
 </h1>
 
 <h4 align="center">
@@ -11,13 +11,12 @@
   ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
   ![Fusion 360](https://img.shields.io/badge/Fusion%20360-FF6B00?style=for-the-badge&logo=autodesk&logoColor=white)
   ![CircuitPython](https://img.shields.io/badge/CircuitPython-8A2BE2?style=for-the-badge&logo=python&logoColor=white)
-  ![Open Source](https://img.shields.io/badge/Open_Source-Success?style=for-the-badge)
 
 </div>
 
 <br>
 
-## ✨ Key Features
+##  Key Features
 
 * **Brain:** Powered by the compact and capable **Seeed Studio XIAO RP2040**.
 * **Firmware:** Runs on **KMK Firmware** (CircuitPython) for incredibly easy keymap customization without needing to recompile.
@@ -26,7 +25,7 @@
 
 ---
 
-## 🛠️ Hardware Design
+## Hardware Design
 
 This project was built entirely from scratch, bridging custom PCB design with 3D modeling. 
 
@@ -44,14 +43,14 @@ The enclosure was designed in Autodesk Fusion 360—marking my very first time d
 | :---: | :---: |
 | <img src="Images/Top case.png" alt="Case Top" width="350"/> | <img src="Images/Bottom case.png" alt="Case Bottom" width="350"/> |
 
-### 🚀 The Final Build
+###  The Final Build
 <div align="center">
   <img src="Images/Macropad.png" alt="Final Build" width="600"/>
 </div>
 
 ---
 
-## 📦 Bill of Materials (BOM)
+##  Bill of Materials (BOM)
 
 Everything you need to build this macro-pad yourself. *(For full details, see the [`BOM.csv`](BOM.csv) file).*
 
@@ -66,7 +65,7 @@ Everything you need to build this macro-pad yourself. *(For full details, see th
 ---
 
 
-## 🙌 Credits & Acknowledgments
+##  Credits & Acknowledgments
 
 This project wouldn't be possible without these incredible open-source tools and communities:
 
