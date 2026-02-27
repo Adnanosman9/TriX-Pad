@@ -1,5 +1,5 @@
 <h1 align="center">
-  Adnan's 3x3 Macro-Pad
+  TriXpad
 </h1>
 
 <h4 align="center">
